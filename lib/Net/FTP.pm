@@ -23,7 +23,7 @@ use Net::Config;
 use Socket;
 use Time::Local;
 
-our $VERSION = '3.12';
+our $VERSION = '3.12-active-nat-support';
 
 our $IOCLASS;
 my $family_key;
