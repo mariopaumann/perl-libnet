@@ -919,8 +919,9 @@ that a DSN not be returned to the sender under any conditions."
   $smtp->recipient(@recipients, { Notify => ['NEVER'], SkipBad => 1 });  # Good
 
 You may use any combination of these three values 'SUCCESS','FAILURE','DELAY' in
-the anonymous array reference as defined by RFC3461 (see http://www.ietf.org/rfc/rfc3461.txt
-for more information.  Note: quotations in this topic from same.).
+the anonymous array reference as defined by RFC3461 (see
+L<http://www.ietf.org/rfc/rfc3461.txt> for more information.  Note: quotations
+in this topic from same.).
 
 A Notify parameter of 'SUCCESS' or 'FAILURE' "requests that a DSN be issued on
 successful delivery or delivery failure, respectively."
@@ -1026,10 +1027,10 @@ L<IO::Socket::SSL>
 
 =head1 AUTHOR
 
-Graham Barr E<lt>F<gbarr@pobox.com>E<gt>.
+Graham Barr E<lt>L<gbarr@pobox.com|mailto:gbarr@pobox.com>E<gt>.
 
-Steve Hay E<lt>F<shay@cpan.org>E<gt> is now maintaining libnet as of version
-1.22_02.
+Steve Hay E<lt>L<shay@cpan.org|mailto:shay@cpan.org>E<gt> is now maintaining
+libnet as of version 1.22_02.
 
 =head1 COPYRIGHT
 

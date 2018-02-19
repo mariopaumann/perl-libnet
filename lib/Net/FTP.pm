@@ -2034,10 +2034,10 @@ run of your program which does yield the problem.
 
 =head1 AUTHOR
 
-Graham Barr E<lt>F<gbarr@pobox.com>E<gt>.
+Graham Barr E<lt>L<gbarr@pobox.com|mailto:gbarr@pobox.com>E<gt>.
 
-Steve Hay E<lt>F<shay@cpan.org>E<gt> is now maintaining libnet as of version
-1.22_02.
+Steve Hay E<lt>L<shay@cpan.org|mailto:shay@cpan.org>E<gt> is now maintaining
+libnet as of version 1.22_02.
 
 =head1 SEE ALSO
 
@@ -2046,9 +2046,9 @@ L<Net::Cmd>,
 L<IO::Socket::SSL>
 
 ftp(1), ftpd(8), RFC 959, RFC 2428, RFC 4217
-http://www.ietf.org/rfc/rfc959.txt
-http://www.ietf.org/rfc/rfc2428.txt
-http://www.ietf.org/rfc/rfc4217.txt
+L<http://www.ietf.org/rfc/rfc959.txt>,
+L<http://www.ietf.org/rfc/rfc2428.txt>,
+L<http://www.ietf.org/rfc/rfc4217.txt>
 
 =head1 USE EXAMPLES
 
@@ -2056,7 +2056,7 @@ For an example of the use of Net::FTP see
 
 =over 4
 
-=item http://www.csh.rit.edu/~adam/Progs/
+=item L<http://www.csh.rit.edu/~adam/Progs/>
 
 C<autoftp> is a program that can retrieve, send, or list files via
 the FTP protocol in a non-interactive manner.
@@ -2065,12 +2065,14 @@ the FTP protocol in a non-interactive manner.
 
 =head1 CREDITS
 
-Henry Gabryjelski <henryg@WPI.EDU> - for the suggestion of creating directories
-recursively.
+Henry Gabryjelski E<lt>L<henryg@WPI.EDU|mailto:henryg@WPI.EDU>E<gt> - for the
+suggestion of creating directories recursively.
 
-Nathan Torkington <gnat@frii.com> - for some input on the documentation.
+Nathan Torkington E<lt>L<gnat@frii.com|mailto:gnat@frii.com>E<gt> - for some
+input on the documentation.
 
-Roderick Schertler <roderick@gate.net> - for various inputs
+Roderick Schertler E<lt>L<roderick@gate.net|mailto:roderick@gate.net>E<gt> - for
+various inputs
 
 =head1 COPYRIGHT
 
